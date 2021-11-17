@@ -1,5 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name">Holihome</string>
     <string name="background">background</string>
     <string name="get_started">Get Started</string>
+    <string name="start_looking_for_your_home">Start looking for your home</string>
+    <string name="search_for_home">Search For Home</string>
+    <string name="category_name">Category name</string>
 </resources>
