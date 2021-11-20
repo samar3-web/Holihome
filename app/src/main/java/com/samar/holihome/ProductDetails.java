@@ -4,13 +4,14 @@ package com.samar.holihome;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ProductDetails extends AppCompatActivity {
-
+    Button btn;
     ImageView img, back;
     TextView proName, proPrice, proDesc;
 
@@ -40,6 +41,7 @@ public class ProductDetails extends AppCompatActivity {
         proPrice.setText(price);
         proDesc.setText(desc);
 
+        btn = findViewById(R.id.button_id);
 
 
         img.setImageResource(image);
@@ -55,6 +57,15 @@ public class ProductDetails extends AppCompatActivity {
 
             }
         });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent (ProductDetails.this, Reseravtion.class );
+                startActivity(i);
+            }
+        });
+
 
     }
 

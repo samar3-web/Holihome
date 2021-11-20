@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977648976295",
+    "project_id": "holihome-4f1d5",
+    "storage_bucket": "holihome-4f1d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977648976295:android:066e8ea915bedefa91f682",
+        "android_client_info": {
+          "package_name": "com.samar.holihome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977648976295-k51f6j38abfh1rbhrkvgm77j8knqk3uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThpsadCtwq7SqTduSVPyDFffCG90EYEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977648976295-k51f6j38abfh1rbhrkvgm77j8knqk3uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
