@@ -36,7 +36,6 @@ public class ProductDetails extends AppCompatActivity {
         img = findViewById(R.id.big_image);
         back = findViewById(R.id.back2);
 
-
         proName.setText(name);
         proPrice.setText(price);
         proDesc.setText(desc);

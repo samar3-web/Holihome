@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
         // adding data to model
         recentlyViewedList = new ArrayList<>();
-        recentlyViewedList.add(new RecentlyViewed("", " L’appartement du Palais à La Marsa ", "Appartement avec entrée Indépendante situé dans un palais du XIX siècle en plein cœur de la Marsa ", "388 TND/Nuit", R.drawable.card1, R.drawable.discount1));
-        recentlyViewedList.add(new RecentlyViewed("", "Séjour en classe affaire: Apt de luxe à Sidi Daoud", "Séjournez en classe affaire! Ce superbe appartement, luxueux et ultra confortable se trouve dans une résidence haut de gamme à Sidi Daoud.", "210 TND/Nuit",R.drawable.card2,R.drawable.discount2));
-        recentlyViewedList.add(new RecentlyViewed("", "Le Premium: Central, luxueux et très confortable", "Luxueux appartement dans une résidence sécurisée et très bien située à Sidi Daoud, La Marsa. Ce logement est décoré avec beaucoup de goût et est entièrement équipé.", "329 TND/Nuit",R.drawable.card3,R.drawable.h2));
-        recentlyViewedList.add(new RecentlyViewed("", "Les Ambassadeurs: Appartement grand luxe aux Berges du Lac 2", "Les Ambassadeurs est un des plus beaux appartements de la capitale. Située dans une résidence ultra luxe .", "1.130 TND/Nuit",R.drawable.card4,R.drawable.h4));
+        recentlyViewedList.add(new RecentlyViewed(" L’appartement du Palais à La Marsa", "Appartement avec entrée Indépendante situé dans un palais du XIX siècle en plein cœur de la Marsa ", " 388 TND/Nuit", R.drawable.card1, R.drawable.discount1));
+        recentlyViewedList.add(new RecentlyViewed("Séjour en classe affaire: Apt de luxe à Sidi Daoud", "Séjour en classe affaire! Ce superbe appartement, luxueux et ultra confortable se trouve dans une résidence haut de gamme à sidi Daoued", "210 TND/Nuit",R.drawable.card2,R.drawable.discount2));
+        recentlyViewedList.add(new RecentlyViewed("Le Premium: Central, luxueux et très confortable", "Luxueux appartement dans une résidence sécurisée et très bien située à Sidi Daoud, La Marsa. Ce logement est décoré avec beaucoup de goût et est entièrement équipé.", "329 TND/Nuit",R.drawable.card3,R.drawable.h2));
+        recentlyViewedList.add(new RecentlyViewed("Les Ambassadeurs: Appartement grand luxe aux Berges du Lac 2", "Les Ambassadeurs est un des plus beaux appartements de la capitale. Située dans une résidence ultra luxe .", "1.130TND/Nuit" ,R.drawable.card4,R.drawable.h4));
 
         setDiscountRecycler(discountedProductsList);
         setRecentlyViewedRecycler(recentlyViewedList);

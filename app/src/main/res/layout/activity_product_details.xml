@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ProductDetails">
 
+
     <ImageView
         android:id="@+id/back2"
         android:layout_width="wrap_content"
@@ -14,14 +15,14 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-         />
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:text="Home Details"
+        android:text="Product Details"
         android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="@+id/back2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,32 +37,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back2"
-         />
+        app:srcCompat="@drawable/discount1" />
 
     <TextView
         android:id="@+id/productName"
-        android:layout_width="361dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="345dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/gilroy_bold"
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/big_image" />
 
-
     <TextView
         android:id="@+id/prodDesc"
-        android:layout_width="364dp"
-        android:layout_height="95dp"
+        android:layout_width="332dp"
+        android:layout_height="114dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="272dp"
         android:fontFamily="@font/gilroy_light"
         android:text="prodDesc"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/productName"
         app:layout_constraintTop_toBottomOf="@+id/productName" />
 
@@ -69,7 +69,8 @@
         android:id="@+id/prodPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/gilroy_bold"
         android:text="TextView"
         android:textSize="24sp"

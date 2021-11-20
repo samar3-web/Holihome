@@ -1,22 +1,28 @@
 package com.samar.holihome.model;
 
 public class RecentlyViewed {
-
     String name;
     String description;
     String price;
     int imageUrl;
+    int bigimageurl;
 
-    public RecentlyViewed(String s, String name, String description, String price, int
+    public RecentlyViewed(String name, String description, String price, int
             imageUrl, int bigimageurl) {
         this.name = name;
         this.description = description;
         this.price = price;
         this.imageUrl = imageUrl;
+        this.bigimageurl = bigimageurl;
     }
 
+    public int getBigimageurl() {
+        return bigimageurl;
+    }
 
-
+    public void setBigimageurl(int bigimageurl) {
+        this.bigimageurl = bigimageurl;
+    }
 
     public String getName() {
         return name;
@@ -42,6 +48,7 @@ public class RecentlyViewed {
         this.price = price;
     }
 
+
     public int getImageUrl() {
         return imageUrl;
     }
@@ -50,4 +57,3 @@ public class RecentlyViewed {
         this.imageUrl = imageUrl;
     }
 }
-
