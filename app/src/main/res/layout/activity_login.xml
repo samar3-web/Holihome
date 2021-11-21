@@ -21,8 +21,8 @@
         android:layout_marginEnd="90dp"
         android:contentDescription="@string/welcome"
         android:text="Welcome"
-        android:textColor="@color/bluesystem"
-        android:textColorHint="@color/bluesystem"
+        android:textColor="#13497B"
+        android:textColorHint="#13497B"
         android:textSize="35sp"
         android:textStyle="bold"
         app:srcCompat="@drawable/wlcome" />
@@ -40,8 +40,8 @@
         android:layout_marginBottom="1dp"
         android:contentDescription="@string/email"
         android:text="Username"
-        android:textColor="@color/bluesystem"
-        android:textColorHint="@color/bluesystem"
+        android:textColor="#13497B"
+        android:textColorHint="#13497B"
         android:textSize="25sp"
         android:textStyle="bold"
         app:srcCompat="@drawable/em" />
@@ -87,8 +87,10 @@
         android:layout_marginStart="121dp"
         android:layout_marginEnd="131dp"
         android:layout_marginBottom="5dp"
-        android:backgroundTint="#143998"
-        android:text="@string/login" />
+        android:backgroundTint="#00BCD4"
+        android:text="@string/login"
+        android:textColor="#13497B"
+        android:textColorLink="#13497B" />
 
     <TextView
         android:id="@+id/imageView7"
@@ -102,8 +104,8 @@
         android:layout_marginEnd="9dp"
         android:contentDescription="@string/pass"
         android:text="Password"
-        android:textColor="@color/bluesystem"
-        android:textColorHint="@color/bluesystem"
+        android:textColor="#13497B"
+        android:textColorHint="#13497B"
         android:textSize="25sp"
         android:textStyle="bold"
         app:srcCompat="@drawable/pass" />
@@ -177,7 +179,7 @@
         android:padding="20dp"
         android:text="@string/create_new_account"
         android:textAllCaps="false"
-        android:textColor="@color/bluesystem"
+        android:textColor="#13497B"
         android:textSize="18sp" />
 
 
