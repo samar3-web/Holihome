@@ -7,4 +7,24 @@
     <string name="start_looking_for_your_home">Start looking for your home</string>
     <string name="search_for_home">Search For Home</string>
     <string name="category_name">Category name</string>
+    <string name="acc">TODO</string>
+    <string name="button">button</string>
+    <string name="cr">TODO</string>
+    <string name="em">TODO</string>
+    <string name="fin">TODO</string>
+    <string name="g3">TODO</string>
+    <string name="g7">TODO</string>
+    <string name="log">TODO</string>
+    <string name="logg">TODO</string>
+    <string name="loginn">TODO</string>
+    <string name="logto">TODO</string>
+    <string name="welcome">welcome</string>
+    <string name="email">email</string>
+    <string name="cem">cem</string>
+    <string name="cp">cp</string>
+    <string name="login">login</string>
+    <string name="pass">pass</string>
+    <string name="fr">fr</string>
+    <string name="logintxt">Login</string>
+    <string name="create_new_account">Create</string>
 </resources>

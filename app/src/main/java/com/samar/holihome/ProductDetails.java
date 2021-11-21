@@ -61,7 +61,7 @@ public class ProductDetails extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent (ProductDetails.this, Reseravtion.class );
+                Intent i = new Intent (ProductDetails.this, LoginActivity.class );
                 startActivity(i);
             }
         });

@@ -11,4 +11,7 @@
     <color name="gray">#F5F5F5</color>
     <color name="transparent">#00000000</color>
     <color name="hintTextColor">#787878</color>
+
+    <color name="bluesystem">#143998</color>
+    <color name="blue">#0000FF</color>
 </resources>
