@@ -1,6 +1,9 @@
 package com.samar.holihome;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    ImageView img;
     RecyclerView discountRecyclerView, recentlyViewedRecycler;
     DiscountedProductAdapter discountedProductAdapter;
     List<DiscountedProducts> discountedProductsList;
@@ -31,6 +34,21 @@ public class MainActivity extends AppCompatActivity {
 
         discountRecyclerView = findViewById(R.id.discountedRecycler);
         recentlyViewedRecycler = findViewById(R.id.recently_item);
+        img = findViewById(R.id.imageView1);
+
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent(MainActivity.this, upload_image.class);
+                startActivity(i);
+
+
+            }
+        });
+
+
+
 
         // adding data to model
         discountedProductsList = new ArrayList<>();

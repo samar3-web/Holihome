@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Holihome">
         <activity
+            android:name=".upload_image"
+            android:exported="true" />
+        <activity
             android:name=".Reseravtion"
             android:exported="true" />
         <activity android:name=".ProductDetails" />
@@ -25,10 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".RegisterActivity"></activity>
-
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
