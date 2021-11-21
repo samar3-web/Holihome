@@ -1,27 +1,22 @@
 package com.samar.holihome;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
-import android.os.Bundle;
-import android.text.TextUtils;
-import android.widget.Button;
-import android.content.Intent;
-import android.view.View;
-import android.widget.CheckBox;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-import com.google.firebase.database.*;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
-
-import androidx.appcompat.app.AppCompatActivity;
 public class LoginActivity extends AppCompatActivity{
 
     private Button joinNowButton;
@@ -124,7 +119,7 @@ public class LoginActivity extends AppCompatActivity{
                         Toast.makeText(LoginActivity.this, "logged in Successfully...", Toast.LENGTH_SHORT).show();
                         loadingBar.dismiss();
 
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, Reseravtion.class);
                         Prevalent.currentOnlineUser = usersData;
                         startActivity(intent);}
                     else

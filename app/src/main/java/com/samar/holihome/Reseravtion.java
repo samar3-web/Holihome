@@ -1,5 +1,6 @@
 package com.samar.holihome;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -71,6 +72,8 @@ public class Reseravtion extends AppCompatActivity {
                     // data to our database.
                     addDatatoFirebase(name, phone, date);
                 }
+                Intent i = new Intent(Reseravtion.this,MainActivity.class);
+                startActivity(i);
             }
         });
         
