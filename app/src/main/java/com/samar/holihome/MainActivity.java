@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i = new Intent(MainActivity.this, upload_image.class);
+                Intent i = new Intent(MainActivity.this, AddHomeActivity.class);
                 startActivity(i);
 
 

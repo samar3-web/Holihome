@@ -23,7 +23,6 @@ public class Reseravtion extends AppCompatActivity {
 
     private EditText ClientNameEdt, ClientPhoneEdt, ClientDateEdt;
     private Button sendDatabtn;
-
     FirebaseDatabase firebaseDatabase;
 
     DatabaseReference databaseReference;
@@ -80,6 +79,7 @@ public class Reseravtion extends AppCompatActivity {
     }
 
     private void addDatatoFirebase(String name, String phone, String date) {
+
         //set data on our project class
         clientInfo.setClientName(name);
         clientInfo.setClientContactNumber(phone);

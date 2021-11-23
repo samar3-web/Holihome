@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_add_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_intro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_product_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_reseravtion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/activity_upload_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Holihomefi/app/src/main/res/layout/discounted_row_items.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Holihome/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Holihome/app/src/main/res/drawable/custom_button.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/Holihome/app/src/main/res/drawable/discount.xml" value="0.2703125" />
