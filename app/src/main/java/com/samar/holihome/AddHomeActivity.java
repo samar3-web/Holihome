@@ -52,7 +52,7 @@ public class AddHomeActivity   extends AppCompatActivity
 
         CategoryName = getIntent().getExtras().get("category").toString();
         ProductImagesRef = FirebaseStorage.getInstance("gs://my-application-8f996.appspot.com").getReference().child("Product Images");
-        ProductsRef = FirebaseDatabase.getInstance("gs://my-application-8f996.appspot.com").getReference().child("Products");
+        ProductsRef = FirebaseDatabase.getInstance("https://my-application-8f996-default-rtdb.firebaseio.com/").getReference().child("Products");
 
 
         AddNewProductButton = (Button) findViewById(R.id.add_new_product);
