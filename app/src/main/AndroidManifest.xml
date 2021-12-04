@@ -31,6 +31,13 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".LoginAdmin" />
+        <activity android:name=".MainActivityAdmin" />
+        <activity android:name=".Add" />
+        <activity android:name=".AddUser" />
+        <activity android:name=".AddHomeAdmin" />
+
+
     </application>
 
 </manifest>
